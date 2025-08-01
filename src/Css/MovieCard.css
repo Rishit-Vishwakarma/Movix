@@ -99,6 +99,7 @@ img{
         width: 200px;
         height: 300px;
     }
+    
 }
 
 @media (min-width: 320px) and (max-width: 350px){
@@ -106,4 +107,17 @@ img{
         width: 200px;
         height: 300px;
     }
+}
+
+@media (max-width: 425px){
+    img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .movie-card{
+    display: flex;
+    width: 200px;
+    }
+    
 }
