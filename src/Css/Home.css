@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.search-form{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 3rem;
+}
+
+.search-input{
+    width: 300px;
+    background-color: transparent;
+    font-size: large;
+    border: 2px solid #A381A3;
+    border-radius: 15px;
+    color: black;
+}
+
+.search-input::placeholder {
+  color: white;
+  padding-left: 5px;
+}
+
+.search-btn{
+    width: 100px;
+    border: 2px solid #613F75;
+    border-radius: 15px;
+    background-color: #613F75;
+    margin-left: 10px;
+    color: white;
+    font-size: medium;
+
+}
+
+.search-btn:active{
+    background-color: #8f72a0;
+}
+
+.search-btn:hover{
+    background-color: #5a2a75;
+    cursor: pointer;
+}
+
+.movie-grid{
+    display: flex;
+    flex-wrap: wrap;         
+    gap: 3rem;               
+    justify-content: center; 
+}
+
+@media (max-width : 1440px) {
+    .movie-grid{
+        gap: 50px;         
+    }
+}
+
+@media (max-width : 1024px){
+    .movie-grid{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width : 1025px) and (max-width : 1439px){
+    .movie-grid{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 375px){
+    .search-btn{
+        width: 100px;
+        height: auto;
+        border: 2px solid #613F75;
+        border-radius: 15px;
+        background-color: #613F75;
+        margin-left: 10px;
+        color: white;
+        font-size: small;
+    }
+
+    .search-input{
+        width: 150px;
+        background-color: transparent;
+        font-size: small;
+        border: 2px solid #A381A3;
+        border-radius: 15px;
+        color: black;
+    }
+}
+
+@media (max-width: 320px){
+    .search-input{
+        width: 150px;
+        background-color: transparent;
+        border: 2px solid #A381A3;
+        border-radius: 15px;
+        color: black;
+    }
+
+    .search-btn{
+        width: 45px;
+        height: 45px;
+        border: 2px solid #613F75;
+        border-radius: 50%;
+        background-color: #613F75;
+        margin-left: 10px;
+        color: white;
+        font-size: small;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 350px){
+    .search-input{
+        width: 150px;
+        background-color: transparent;
+        border: 2px solid #A381A3;
+        border-radius: 15px;
+        color: black;
+    }
+
+    .search-btn{
+        width: 45px;
+        height: 45px;
+        border: 2px solid #613F75;
+        border-radius: 50%;
+        background-color: #613F75;
+        margin-left: 10px;
+        color: white;
+        font-size: small;
+    }
+}
