@@ -4,7 +4,7 @@
 }
 
 .nav-link{
-    background-color: #65487E;
+    background-color:rgb(20, 20, 20);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,12 +15,12 @@
     display: flex;
     gap: 40px;
     font-size: 20px;
-    background-color: #65487E;
+    background-color: rgb(20, 20, 20);
 }
 
 a{
     color: white;
-    background-color: #65487E;
+    background-color: rgb(20, 20, 20);
     text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ a{
     width: 120px;
     background-image: url(./logo.png);
     background-size: cover;
-    background-color: #65487E;
+    background-color: rgb(20, 20, 20);
     background-position: center;
     background-size: 140%;
     margin-left: 10px;
